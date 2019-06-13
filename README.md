@@ -1,5 +1,5 @@
-Downscaled Davis Dataset
-========================
+Derf-HD Video Dataset
+=====================
 
 * Author    : Pablo Arias <pariasm@gmail.com>
 * Copyright : (C) 2019 IPOL Image Processing On Line http://www.ipol.im/
