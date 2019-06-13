@@ -31,6 +31,8 @@ To compile the image tools we need
 - libjpeg
 - libfftw
 
+In addition, we also use ffmpeg to extract the frames from the downloaded videos.
+
 COMPILATION
 -----------
 
