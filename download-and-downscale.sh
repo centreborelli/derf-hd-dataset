@@ -8,7 +8,8 @@ OUT=$4 # output folder
 # download video in output folder
 mkdir -p $OUT/gray
 mkdir -p $OUT/rgb
-wget $URL $OUT
+wget $URL
+mv $(basename $URL) $OUT
 
 # extract frames from videos using ffmpeg
 ffmpeg -i $OUT/$(basename $URL) -f image2 $OUT/tmp-%03d.png
